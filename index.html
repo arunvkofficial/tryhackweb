@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Upload Vulnerability Challenge</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>File Upload Vulnerability Challenge</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="upload-section">
+            <div class="container">
+                <h2>Upload Your Profile Picture</h2>
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <button type="submit" id="uploadBtn">Upload</button>
+                </form>
+                <p id="resultMessage"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 File Upload Vulnerability Challenge</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
